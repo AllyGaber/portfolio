@@ -1,6 +1,7 @@
 function newCreation(img, label, size) {
 const creation = document.createElement("div");
 const imgElement = document.createElement("img");
+const overlay = document.createElement("div");
 
 const p = document.createElement("p");
 p.className = "text";
@@ -19,6 +20,7 @@ creation.addEventListener("contextmenu", function(event) {
 
 creation.appendChild(p)
 creation.appendChild(imgElement);
+creation.appendChild(overlay);
 }
 newCreation("DiamondMineTycoon.png", "Diamond Mine Tycoon UI");
 newCreation("SphereIncrementals.png", "Sphere Incrementals Logo")
