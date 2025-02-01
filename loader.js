@@ -27,3 +27,4 @@ newCreation("SphereIncrementals.png", "Sphere Incrementals Logo")
 newCreation("MoneyCounter.png", "Money Counter UI");
 newCreation("Spheres.png", "Spheres");
 newCreation("serverblox.png", "ServerBlox Logo");
+newCreation("Survivalist.png", "Survivalist Logo")
