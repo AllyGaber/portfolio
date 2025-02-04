@@ -15,6 +15,7 @@ imgElement.style.width = "100%";
 imgElement.style.display = "block";
 imgElement.style.position = "relative"
 imgElement.style.borderRadius = "10px"
+creation.title = "Click to expand"
 document.getElementById("creationsCont").appendChild(creation);
 
 creation.addEventListener("contextmenu", function(event) {
