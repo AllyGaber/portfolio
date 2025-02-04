@@ -157,7 +157,7 @@ bottom: -25px;
 #closeButton {
     width: 35px;
     height: 35px;
-    position: absolute;
+    position: inherit;
     left: 10;
     bottom: 10;
 }
