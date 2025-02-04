@@ -14,6 +14,7 @@ body{
 #msgTitle {
     position: relative;
     margin-left: 5px;
+    font-weight: 24px;
 }
 .text {
     font-family: mainFont;
@@ -70,6 +71,9 @@ body{
     flex-wrap: wrap;
     position: relative;
 }
+#creationsCont div:hover {
+    cursor: pointer;
+}
 #creationsCont div p {
     position: absolute;
     background-color: rgb(29, 16, 42);
@@ -100,4 +104,72 @@ bottom: -25px;
 }
 #creationsCont div div:hover {
     background-color: #fff;
+}
+#creationWindow {
+    width: 65%;
+    height: 600px;
+    background-color: rgb(29, 16, 42);
+    border-width: 2px;
+    border-color: #616161;
+    border-style: solid;
+    position: fixed;
+    top: 50%;
+    left: -9999;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px;
+    z-index: 3;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    opacity: 100%;
+    display: flex;
+}
+#imageCont {
+    background-color: rgb(21, 12, 31);
+    height: 85%;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#label {
+    font-size: 50px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+#creationImage {
+    display: block;
+    object-fit: contain;
+    border-radius: 5px;
+    max-width: 100%;
+    max-height: 100%;
+}
+#desc {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#closeButton {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 10;
+    bottom: 10;
+}
+#closeButton:hover {
+    filter: drop-shadow(0px 0px 2px #ffffff4b);
+    cursor: pointer;
+}
+@keyframes openAnimation {
+    0% {transform: translate(-50%, -50%); opacity: 0; left: 50%; margin-top: 50px;}
+    100% {transform: translate(-50%, -50%); opacity: 100%; left: 50%;}
+}
+@keyframes closeAnimation {
+    0% {transform: translate(-50%, -50%); opacity: 100%; left: 50%;}
+    100% {transform: translate(-50%, -50%); opacity: 0; left: 50%; margin-top: 50px;}
 }

@@ -2,8 +2,11 @@ function newCreation(img, label, size) {
 const creation = document.createElement("div");
 const imgElement = document.createElement("img");
 const overlay = document.createElement("div");
-
+const window = document.getElementById("creationWindow");
+const image = document.getElementById("creationImage");
+const windowLabel = document.getElementById("label")
 const p = document.createElement("p");
+const closeBtn = document.getElementById("closeButton");
 p.className = "text";
 p.textContent = label;
 
@@ -17,6 +20,22 @@ document.getElementById("creationsCont").appendChild(creation);
 creation.addEventListener("contextmenu", function(event) {
     event.preventDefault();
 });
+
+creation.onclick = function(){
+    window.style.animation = "none";
+    image.src = "./Media/Creations/" + img;
+    windowLabel.innerHTML = label;
+    window.offsetWidth;
+    window.style.animation = "openAnimation 0.3s ease";
+    window.style.left = "50%"
+}
+
+closeBtn.onclick = function(){
+    window.style.animation = "none";
+    window.offsetWidth;
+    window.style.animation = "closeAnimation 0.3s ease";
+    window.style.left = "-9999"
+}
 
 creation.appendChild(p)
 creation.appendChild(imgElement);
