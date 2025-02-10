@@ -43,10 +43,13 @@ creation.appendChild(imgElement);
 creation.appendChild(overlay);
 }
 newCreation("DiamondMineTycoon.png", "Diamond Mine Tycoon UI");
-newCreation("SphereIncrementals.png", "Sphere Incrementals Logo")
+newCreation("SphereIncrementals.png", "Sphere Incrementals Logo");
 newCreation("MoneyCounter.png", "Money Counter UI");
 newCreation("Spheres.png", "Spheres");
 newCreation("serverblox.png", "ServerBlox Logo");
-newCreation("Survivalist.png", "Survivalist Logo")
+newCreation("Survivalist.png", "Survivalist Logo");
 newCreation("survivalistGamepasses.png", "Survivalist Gamepasses");
-newCreation("shopPlaceHolderUI.png","Shop UI Placeholders")
+newCreation("shopPlaceHolderUI.png","Shop Menu Placeholders");
+newCreation("rebirthMenu.png", "Rebirth Menu");
+newCreation("shopMenu.png", "Shop Menu");
+newCreation("upgradeMenu.png", "Upgrade Menu");
