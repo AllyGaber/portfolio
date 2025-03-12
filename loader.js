@@ -53,3 +53,4 @@ newCreation("shopPlaceHolderUI.png","Shop Menu Placeholders");
 newCreation("rebirthMenu.png", "Rebirth Menu");
 newCreation("shopMenu.png", "Shop Menu");
 newCreation("upgradeMenu.png", "Upgrade Menu");
+newCreation("BattlegroundThemedUI.png", "Battleground Themed UI");
