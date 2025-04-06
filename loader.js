@@ -46,7 +46,6 @@ function newCreation(img, label, size) {
     newCreation("SphereIncrementals.png", "Sphere Incrementals Logo");
     newCreation("MoneyCounter.png", "Money Counter UI");
     newCreation("Spheres.png", "Spheres");
-    newCreation("serverblox.png", "ServerBlox Logo");
     newCreation("Survivalist.png", "Survivalist Logo");
     newCreation("survivalistGamepasses.png", "Survivalist Gamepasses");
     newCreation("shopPlaceHolderUI.png","Shop UI");
