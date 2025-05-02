@@ -54,3 +54,4 @@ function newCreation(img, label, size) {
     newCreation("upgradeMenu.png", "Upgrade Menu");
     newCreation("BattlegroundThemedUI.png", "Battleground Themed UI");
     newCreation("shopUI2.png", "Shop UI");
+    newCreation("gamepassicons.png", "Gamepass Icons");
